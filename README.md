@@ -37,10 +37,10 @@
 - eg: 
 	- api-key: **helloworld**
 	- timestamp: **1551669165**
-	- api-path: **/gamebling/v1/wallet/balance\_of\_player\1**
+	- api-path: **/gamebling/v1/wallet/balance\_of\_player/1**
 	- api-secret: **1234567890**
-	- API Signature String before hash: **helloworld:1551669165:/gamebling/v1/wallet/balance\_of\_player\1**
-	- HMAC SHA256 hashed by using api-sercret: **6168bdaefefaed64b5a4e2d4bcd35dee1af2b7c5aaa812f4df80c36b16ebd8b6**
+	- API Signature String before hash: **helloworld:1551669165:/gamebling/v1/wallet/balance\_of\_player/1**
+	- HMAC SHA256 hashed by using api-sercret: **0e119e638702705c76046f2451296a996914bf7588e96b7290054e0a6b60a5f8**
 
 ### 3. Bypass for testing purpose
 - For dev server, I added a short cut for bypassing the api authentication
